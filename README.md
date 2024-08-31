@@ -31,3 +31,6 @@
 - [BlogHelper](https://github.com/ystcode/BlogHelper)：一键发布本地文章到主流博客平台的托盘助手
 - [qrbtf](https://github.com/ciaochaos/qrbtf)：艺术二维码生成器
 - [编程如画](https://draw.mdnice.com/)：「编程如画」博客
+
+
+> npm run start
