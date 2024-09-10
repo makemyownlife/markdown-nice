@@ -34,3 +34,4 @@
 
 
 > npm run start
+> yarn run start
