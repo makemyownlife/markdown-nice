@@ -32,7 +32,7 @@
 - [qrbtf](https://github.com/ciaochaos/qrbtf)：艺术二维码生成器
 - [编程如画](https://draw.mdnice.com/)：「编程如画」博客
 
-
+> 在项目的package.json文件中增加一个节点“homepage”:"."，或者是"./"，当然，此功能是在react-scripts 0.9.0或者更高版本才支持的。
 > npm run start
 > yarn run start
 
