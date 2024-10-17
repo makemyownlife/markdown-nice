@@ -1,129 +1,191 @@
 export default `/* 自定义样式，实时生效，浏览器实时缓存 */
 
+
 /* 全局属性
- * 页边距 padding: 30px;
- * 全文字体 font-family: ptima-Regular;
- * 英文换行 word-break: break-all;
- */
-#nice {
-}
+* 页边距 padding: 30px;
+* 全文字体 font-family: ptima-Regular;
+* 英文换行 word-break: break-all;
+  */
+  #nice {
+  font-family:"Avenir, -apple-system-font, 微软雅黑, sans-serif";
+  font-size: 15px;
+  color:rgb(74,74,74);
+  letter-spacing: 0.5444px;
+  padding-left: 5px;
+  padding-right: 5px;
+  padding-top: 0px;
+  margin-top: 0px;
+  }
 
 /* 段落，下方未标注标签参数均同此处
- * 上边距 margin-top: 5px;
- * 下边距 margin-bottom: 5px;
- * 行高 line-height: 26px;
- * 词间距 word-spacing: 3px;
- * 字间距 letter-spacing: 3px;
- * 对齐 text-align: left;
- * 颜色 color: #3e3e3e;
- * 字体大小 font-size: 16px;
- * 首行缩进 text-indent: 2em;
- */
-#nice p {
-}
+* 上边距 margin-top: 5px;
+* 下边距 margin-bottom: 5px;
+* 行高 line-height: 26px;
+* 词间距 word-spacing: 3px;
+* 字间距 letter-spacing: 3px;
+* 对齐 text-align: left;
+* 颜色 color: #3e3e3e;
+* 字体大小 font-size: 16px;
+* 首行缩进 text-indent: 2em;
+  */
+  #nice p {
+  text-align: justify;
+  line-height: 30px;
+  font-family:"Avenir, -apple-system-font, 微软雅黑, sans-serif";
+  font-size:15px;
+  color:rgb(74,74,74);
+  letter-spacing: 0.5444px;
+  padding-top: 0px;
+  padding-bottom: 0px;
+  margin-bottom:20px;
+  }
 
 /* 一级标题 */
 #nice h1 {
+text-align: center;
+margin-top: 35px;
+margin-bottom: 20px;
 }
 
 /* 一级标题内容 */
 #nice h1 .content {
+font-size: 16px;
+color: rgb(234, 84, 41);
+letter-spacing: 0.5444px;
+padding-bottom: 10px;
+border-bottom: 2px solid rgb(234, 84, 41);
 }
 
-/* 一级标题前缀 */
-#nice h1 .prefix {
-}
-
-/* 一级标题后缀 */
-#nice h1 .suffix {
+/* 一级标题修饰 请参考有实例的主题 */
+#nice h1:after {
 }
 
 /* 二级标题 */
 #nice h2 {
+text-align: left;
+margin-top: 25px;
+margin-bottom: 20px;
 }
 
 /* 二级标题内容 */
 #nice h2 .content {
+color: rgb(171, 25, 66);
+font-size:14px;
+letter-spacing: 0.5444px;
 }
 
-/* 二级标题前缀 */
-#nice h2 .prefix {
-}
-
-/* 二级标题后缀 */
-#nice h2 .suffix {
+/* 二级标题修饰 请参考有实例的主题 */
+#nice h2:after {
 }
 
 /* 三级标题 */
 #nice h3 {
+margin: 0.6em auto;
+margin-top: 30px;
+color: #1890ff;
 }
 
 /* 三级标题内容 */
 #nice h3 .content {
+font-size: 18px;
+letter-spacing: 0.5444px;
 }
 
-/* 三级标题前缀 */
-#nice h3 .prefix {
+/* 三级标题修饰 请参考有实例的主题 */
+#nice h3:after {
 }
 
-/* 三级标题后缀 */
-#nice h3 .suffix {
+/* 四级标题 */
+#nice h4 {
+margin: 0.6em auto;
+font-size: 1.2em;
+padding-left: 10px;
+border-left: 2px dashed #009688;
+margin-top: 30px;
+letter-spacing: 0.5444px;
+}
+
+/* 五级标题 */
+#nice h5 {
+margin: 0.6em auto;
+font-size: 1.1em;
+padding-left: 10px;
+border-left: 1px dashed #009688;
+}
+
+/* 六级标题 */
+#nice h6 {
+margin: 0.6em auto;
+font-size: 1em;
+padding-left: 10px;
+border-left: 1px dotted #009688;
 }
 
 /* 无序列表整体样式
- * list-style-type: square|circle|disc;
- */
-#nice ul {
-}
+* list-style-type: square|circle|disc;
+  */
+  #nice ul {
+  list-style-type:square;
+  padding-left:1.2em;
+  margin-bottom:20px;
+  }
 
 /* 有序列表整体样式
- * list-style-type: upper-roman|lower-greek|lower-alpha;
- */
-#nice ol {
+* list-style-type: upper-roman|lower-greek|lower-alpha;
+  */
+  #nice ol {
+
 }
 
 /* 列表内容，不要设置li
- */
+*/
 #nice li section {
+margin-top:0px;
+margin-bottom:10px;
+line-height:25px;
+font-family:"Avenir, -apple-system-font, 微软雅黑, sans-serif";
+font-size: 16px;
+color:#4A4A4A;
+letter-spacing: 0.5444px;
 }
 
-/* 一级引用
- * 左边缘颜色 border-left-color: black;
- * 背景色 background: gray;
- */
-#nice .multiquote-1 {
-}
+/* 引用
+* 左边缘颜色 border-left-color: black;
+* 背景色 background: gray;
+  */
+  #nice .multiquote-1 {
+  border-left: 2px solid #888;
+  padding:8px 10px 8px 15px;
+  background:rgb(255, 249, 249);
+  border-left-color:rgb(239, 112, 96);
+  margin-top: 0px;
+  margin-bottom: 10px;
+  letter-spacing: 0.5444px;
+  }
 
-/* 一级引用文字 */
+/* 引用文字 */
 #nice .multiquote-1 p {
+font-family:"Avenir, -apple-system-font, 微软雅黑, sans-serif";
+font-size:14px;
+margin-bottom: 10px;
+color:rgb(74,74,74);
+line-height:30px;
+letter-spacing: 0.5444px;
 }
 
-/* 二级引用
- */
-#nice .multiquote-2 {
-}
-
-/* 二级引用文字 */
-#nice .multiquote-2 p {
-}
-
-/* 三级引用
- */
-#nice .multiquote-3 {
-}
-
-/* 三级引用文字 */
-#nice .multiquote-3 p {
-}
-
-/* 链接 
- * border-bottom: 1px solid #009688;
- */
-#nice a {
-}
+/* 链接
+* border-bottom: 1px solid #009688;
+  */
+  #nice a {
+  color: #009688;
+  border-bottom: 1px solid #009688;
+  }
 
 /* 加粗 */
 #nice strong {
+color: #222222;
+font-weight: bold;
+letter-spacing: 0.5444px;
 }
 
 /* 斜体 */
@@ -139,70 +201,81 @@ export default `/* 自定义样式，实时生效，浏览器实时缓存 */
 }
 
 /* 分隔线
- * 粗细、样式和颜色
- * border-top: 1px solid #3e3e3e;
- */
-#nice hr {
-}
+* 粗细、样式和颜色
+* border-top: 1px solid #3e3e3e;
+  */
+  #nice hr {
+  margin: 20px 0;
+  }
 
 /* 图片
- * 宽度 width: 80%;
- * 居中 margin: 0 auto;
- * 居左 margin: 0 0;
- */
-#nice img {
+* 宽度 width: 80%;
+* 居中 margin: 0 auto;
+* 居左 margin: 0 0;
+  */
+  #nice img {
+  margin-bottom: 15px;
+  }
+
+/* 图片描述文字 */
+#nice figcaption {
 }
 
 /* 行内代码 */
 #nice p code, #nice li code {
+color: rgb(234, 84, 41);
 }
 
-/* 
- * 代码块不换行 display: -webkit-box !important;
- * 代码块换行 display: block;
- */
-#nice pre code {
-}
+/* 非微信代码块
+* 代码块不换行 display: -webkit-box !important;
+* 代码块换行 display: block;
+  */
+  #nice pre code {
+  background: #f8f8f8;
+  }
 
-/*
- * 表格内的单元格
- * 字体大小 font-size: 16px;
- * 边框 border: 1px solid #ccc;
- * 内边距 padding: 5px 10px;
- */
-#nice table tr th,
+/* 表格内的单元格
+* 字体大小 font-size: 16px;
+* 边框 border: 1px solid #ccc;
+* 内边距 padding: 5px 10px;
+  */
+  #nice table tr th {
+  border: 1px solid #009688;
+  background-color: #009688;
+  color: #f8f8f8;
+  border-bottom: 0;
+  }
+
 #nice table tr td {
+border: 1px solid #009688;
 }
 
-/* 
- * 某一列表格列宽控制
- * n 可以修改为具体数字，不修改时表示所有列
- * 最小列宽 min-width: 85px;
- */
-#nice table tr th:nth-of-type(n),
-#nice table tr td:nth-of-type(n){
+#nice table tr:nth-child(2n) {
+background-color: #f8f8f8;
 }
 
 /* 脚注文字 */
 #nice .footnote-word {
+color: #009688;
 }
 
 /* 脚注上标 */
 #nice .footnote-ref {
+color: #009688;
 }
 
-/* "参考资料"四个字 
- * 内容 content: "参考资料";
- */
-#nice .footnotes-sep:before {
-}
+/* "参考资料"四个字
+* 内容 content: "参考资料";
+  */
+  #nice .footnotes-sep:before {
+  }
 
 /* 参考资料编号 */
 #nice .footnote-num {
 }
 
 /* 参考资料文字 */
-#nice .footnote-item p { 
+#nice .footnote-item p {
 }
 
 /* 参考资料解释 */
@@ -210,12 +283,15 @@ export default `/* 自定义样式，实时生效，浏览器实时缓存 */
 }
 
 /* 行间公式
- * 最大宽度 max-width: 300% !important;
- */
-#nice .block-equation svg {
-}
+* 最大宽度 max-width: 300% !important;
+  */
+  #nice .block-equation svg {
+  }
 
 /* 行内公式
- */
+*/
 #nice .inline-equation svg {  
-}`;
+}
+
+
+`;
